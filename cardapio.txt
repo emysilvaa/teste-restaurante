@@ -1,5 +1,13 @@
-01 :: bolo :: R$6.00
-02 :: carne :: R$5.00
-03 :: suco :: R$1.50
-001 :: bolo :: R$5.00
-002 :: suco :: R$1.50
+1 :: hamburguer de bacon :: R$25.00
+2 :: suco de laranja :: R$2.00
+3 :: brigadeiro :: R$3.00
+
+Salgados
+1 :: hamburguer de bacon :: R$25.00
+
+Bebidas
+2 :: suco de laranja :: R$2.00
+4 :: suco de cajá :: R$3.00
+
+Bebidas
+2 :: suco de laranja :: R$2.00

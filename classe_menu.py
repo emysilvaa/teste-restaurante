@@ -45,7 +45,6 @@ class Menu(Produto):
                     self.salgados.append(c)
                     with open(path, 'a') as f:
                         f.write('{}'.format(c))
-                    break
         
         elif self.nome_menu == 'Bebidas':
             for c in estoque:
@@ -54,22 +53,24 @@ class Menu(Produto):
                     self.bebidas.append(c)
                     with open(path, 'a') as f:
                         f.write('{}'.format(c))
-                    break
-
-        '''
         else:
-            for c in self.estoque:
-                self.doces = []
-                self.doces.append(self.estoque)
-        
+            for c in estoque:
+                if 'bolo' in c or 'brigadeiro' in c:
+                    self.doces = []
+                    self.doces.append(c)
+                    with open(path, 'a') as f:
+                        f.write('{}'.format(c))
+        '''
         print('Salgados: {}'.format(self.salgados)) 
         print('Bebidas: {}'.format(self.bebidas))
         
         print('Doces: {}'.format(self.doces))
-        '''
-
+ '''       '''
 cliente = Produto()
-
+'''
 cliente = Menu()
+
 cliente.Organiza_Produtos()
+
+
 
